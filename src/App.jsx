@@ -1,16 +1,12 @@
-import { Auth } from "./pages/Auth"
+import Input from "./components/ui/Input"
+
 function App() {
 
   return (
     <>
-    <Auth></Auth>
-    <div className="min-h-screen flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-blue-500">
-        Tailwind is working!
-      </h1>
-    </div>
+      <Input aria-label="Full name" name="full_name"></Input>
     </>
-  )
+  );
 }
 
 export default App
